@@ -123,7 +123,7 @@ section#inicio .col-md-5{
 
 section#inicio h2{
     color: white;
-    font-size: 4.5rem; /*toma como referencia o tamanho da tela*/
+    font-size: 4.2rem; /*toma como referencia o tamanho da tela*/
 }
 
 section#inicio span#subtitle{
@@ -153,4 +153,56 @@ section#inicio div#arraste i{
 section#inicio div#arraste a{
     text-decoration: none;
     color: white;
+}
+
+/*responsividade*/
+
+i.menu-mobile{
+    position: fixed;
+    color: white;
+    font-size: 1.5rem;
+    display: none;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    background:darkblue;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.menu-nav-active{
+    overflow: hidden;
+}
+
+.menu-nav-active #header{
+    left: 0;
+}
+
+@media (max-width: 1210px){
+    i.menu-mobile{
+        display: flex;
+    }
+
+    #header{
+        left: -300px;
+    }
+
+    #main{
+        margin-left: 0;
+    }
+
+    section#inicio h2{
+        color: white;
+        font-size: 3.5rem; /*toma como referencia o tamanho da tela*/
+    }
+
+    section#inicio span#subtitle{
+        color: white;
+        font-size: 1.3rem;
+        margin-right: 0;
+    }
 }

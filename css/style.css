@@ -223,3 +223,7 @@ i.menu-mobile{
 ::-webkit-scrollbar-thumb {
     background: #021124; 
 }
+
+.section-bg{
+    background: lightblue;
+}

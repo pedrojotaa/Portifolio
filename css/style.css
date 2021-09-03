@@ -227,3 +227,26 @@ i.menu-mobile{
 .section-bg{
     background: lightblue;
 }
+
+#cv .cv-item{
+    border-left: 2px solid #3b3232;
+    padding: 0 0 1rem 1rem;
+    position: relative;
+}
+
+#cv .cv-item h4{
+    background: lightgray;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: .6rem;
+}
+
+#cv .cv-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -6px;
+    height: 10px;
+    width: 10px;
+    background: black;
+}

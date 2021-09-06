@@ -48,13 +48,14 @@ html, body{
 
 #header .profile .social-links a{
     text-decoration: none;
-    font-size: 1rem;
-    background: black;
-    color: white;
-    padding: 0.6rem;
     margin-right: 1rem;
     border-radius: 50%;
     transition: 0.3s;
+    background: black;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding: 0.5rem;
 }
 
 #header .profile .social-links a:hover{
@@ -249,4 +250,39 @@ i.menu-mobile{
     height: 10px;
     width: 10px;
     background: black;
+}
+
+/*estilizando o botao do carrosel*/
+
+.carousel-control-prev{
+    width: 35px;
+    margin-left: -20px;
+    justify-content: end;
+}
+
+.carousel-control-next{
+    width: 35px;
+    margin-right: -20px;
+    justify-content: flex-end;
+}
+
+.carousel-indicators{
+    margin-bottom: -2rem;
+}
+
+.link-portifolio{
+    display: flex;
+    justify-content: center;
+}
+
+.link-portifolio a{
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
 }

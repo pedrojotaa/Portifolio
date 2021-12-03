@@ -14,14 +14,13 @@ html, body{
     bottom: 0;
     left: 0;
     background: #021124;
-    /*nao deixa o conteudo ser cortado ao diminir tela, cria um scroll*/
-    overflow-y: auto;
+    overflow-y: auto; /*nao deixa o conteudo ser cortado ao diminir tela, cria um scroll*/
     width: 300px;
     transition: all ease-in-out 0.5s;
-    z-index: 9997;
+    z-index: 1;
 }
 
-/*profile*/
+/*PROFILE*/
 
 #header .profile img{
     margin: 15px auto;
@@ -62,7 +61,7 @@ html, body{
     background: turquoise;
 }
 
-/*menu de navegação*/
+/*MENU NAV*/
 
 .nav-menu{
     padding: 1.5rem;
@@ -104,7 +103,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url('/img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat; /*nao se repitir*/
     background-size: cover; /*ocupar todo espaço que possui*/
     background-attachment: fixed; /*nquando rolar a tela fica fixa*/

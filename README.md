@@ -3,10 +3,13 @@
 ### O que é?
 
 * Portfólio simples e objetivo para qualquer pessoa que queira mostrar um pouco da sua parte pessoal e profissional para o mercado de trabalho.
+* Criado com o auxilio do BootStrap, o qual facilita o desenvolvimento e a responsividade da página.
 
 ### Imagens do Projeto
 
+![portifolio_Trim](https://user-images.githubusercontent.com/89051795/144730853-286e3e9e-3bb8-451e-9635-772cd6dccade.gif)
 
+![portifolio mob_Trim](https://user-images.githubusercontent.com/89051795/144730854-21264f68-b3ad-4215-82aa-98aee2f37a76.gif)
 
 ### Tecnologias
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> 
